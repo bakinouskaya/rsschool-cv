@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(69, 67, 71);
+    overflow: auto;
+}
+img.know-icons{
+    border: 2px solid #4d4a4a; 
+    position: relative; 
+    transition: 1s;
+    margin: 10px;
+    width: 20px;
+    height: 20px
+   }
+img.know-icons:hover {
+    z-index: 10; 
+    transform: scale(3);
+   }
+.logo-img{
+    width: 40px;
+    position: relative; 
+}
+
+.left-blocks {
+
+    margin: 20px;
+    padding: 20px 30px;
+    border: 1px solid rgb(148, 139, 139);
+    background-color:rgb(231, 216, 216);
+    /* width: 90%; */
+    display: box;
+    overflow-wrap: normal; 
+    overflow: auto;
+    border-radius: 25px;
+
+}
+.left {
+    display:flex;
+    flex-direction: column;
+    justify-content:right;
+    width: 40%;
+
+}
+.right-blocks {
+
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(148, 139, 139);
+    background-color:rgb(218, 229, 231);
+    /* width: 90%; */
+    display: box;
+    overflow-wrap: normal; 
+    overflow: auto;
+    border-radius: 25px;
+
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.img-list {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.top {
+    margin-left: 30px;
+    color:rgb(246, 251, 252);
+}
+
+
+.top-img {
+    border-radius: 100%; 
+    border: 2px solid rgb(144, 147, 150);
+    box-shadow: 0 0 6px #666;
+    margin: 30px;
+   
+}
+.footer {
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px;
+    padding: 0px 30px;
+    border: 1px solid rgb(148, 139, 139);
+    background-color:rgb(139, 151, 153);
+    width: 90%;
+    overflow-wrap: normal;
+    overflow: auto;
+    border-radius: 8px;
+    color:rgb(83, 81, 81);
+    /* justify-content: space-evenly; */
+    align-items: baseline;
+    
+
+}
+
+.footer-element {
+    margin-right:20%;
+}
+
+.main {
+    box-sizing: border-box;
+    display: flex;
+    border: 10px solid rgb(83, 81, 81);
+    background-color:rgb(136, 127, 127);
+    border-radius: 2%;
+    width: 90%;
+    margin: 20px;
+    
+
+}
+nav {
+    width: 90%;
+    margin: auto;
+}
+
+ul.menu li {
+    display: inline-block;
+    color:rgb(218, 229, 231);
+    padding: 12px;
+}
